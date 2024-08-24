@@ -12,12 +12,12 @@ library(vroom)
 library(locuscomparer)
 
 #输入文件
-qtlFile="18840_205_SH2D1B_SH21B.txt.gz"       #基因或者蛋白数据
-gwasFile='finngen_R10_AB1_OTHER_SEPSIS.gz'     #结局数据
+qtlFile="18840_205_SH2D1B_SH21B.txt.gz"       
+gwasFile='finngen_R10_AB1_OTHER_SEPSIS.gz'    
 
-geneChr="chr1"             #基因所在的染色体(https://www.ncbi.nlm.nih.gov/gene)
-geneStart=162395268        #染色体起始位置
-geneEnd=162412136          #染色体终止位置
+geneChr="chr1"           
+geneStart=162395268       
+geneEnd=162412136          
 
 #设置工作目录
 setwd("C:\\Users\\lexb\\Desktop\\Draco")
