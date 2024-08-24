@@ -1,18 +1,18 @@
-setwd(dir="D:/mendelian/mendelian")  #设置你自己的工作路径
+setwd(dir="D:/mendelian/mendelian")  
 rm(list = ls())
 
-# -加载需要用到的包，没安装的需要提前安装一下
+#
 library(TwoSampleMR)
 library(data.table)
 library(tidyverse)
 library(dplyr)
 
 
-# 暴露，需要用的文件放在你设置的工作路径下
+# 暴露
 FileNames <-list.files(paste0(getwd()),pattern="txt.gz$")
 
 # 结局
-out<-fread("convert_ieu-b-4980.vcf.gz.csv")#读取本地结局
+out<-fread("convert_ieu-b-4980.vcf.gz.csv")
 
 
 out <- data.frame(out)
