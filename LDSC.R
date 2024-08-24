@@ -36,7 +36,7 @@ outcome$outcome <- "Sepsis"
 
 #######循环代码######################
 
-#FileNames只有3个，你给我的是17个
+#FileNames
 #1:length(FileNames)中的1可以改，看你前面做了几个，从而接着做
 
 for (i in 1:length(FileNames)) {
