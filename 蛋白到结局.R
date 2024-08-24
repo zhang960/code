@@ -3,10 +3,10 @@ library(VariantAnnotation)
 library(gwasglue)
 library(TwoSampleMR)
 
-exposureFile="exposure.F.csv"               #暴露数据文件
-outcomeFile="finngen_R11_AB1_OTHER_SEPSIS.gz"      #结局数据(需修改)
-outcomeName="SEPSIS"         #图形中展示疾病的名称
-setwd("D:\\mendelian\\mendelian")    #设置工作目录
+exposureFile="exposure.F.csv"               
+outcomeFile="finngen_R11_AB1_OTHER_SEPSIS.gz"     
+outcomeName="SEPSIS"         
+setwd("D:\\mendelian\\mendelian")   
 
 #读取暴露数据
 exposure_dat=read_exposure_data(filename=exposureFile,
